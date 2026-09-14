@@ -1,5 +1,7 @@
 # GameHub
 
+Running: https://game-hub-react-vert.vercel.app/
+
 A web application for browsing and discovering video games, with filtering by genre, platform, and sorting options. Data is powered by the RAWG Video Games Database API (rawg.io/apidocs).
 
 ## Tech Stack

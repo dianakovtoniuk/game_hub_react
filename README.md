@@ -1,37 +1,47 @@
 # GameHub
 
-GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more. 
+A web application for browsing and discovering video games, with filtering by genre, platform, and sorting options. Data is powered by the RAWG Video Games Database API (rawg.io/apidocs).
 
-This is the project we build in my Ultimate React course. You can find the full course at: https://codewithmosh.com 
+## Tech Stack
+
+- React + TypeScript
+- Vite
+- Chakra UI
+- Axios
+- RAWG API
+
+## Features
+
+- Browse games with posters, critic scores, and platform icons
+- Filter by genre and platform
+- Sort by relevance, release date, name, rating, etc.
+- Search games by title
+- Dark / light theme toggle
 
 ## Getting Started
 
-To get started with GameHub, follow these steps:
+**1. Clone the repository**
 
+git clone https://github.com/KovtoniukDiana/gamehub.git, then cd gamehub
 
-1. Clone this repository to your local machine.
-2. Run `npm install` to install the required dependencies.
-3. Get a RAWG API key at https://rawg.io/apidocs. You'll have to create an account first. 
-4. Add the API key to **src/services/api-client.ts**
-5. Run `npm run dev` to start the web server. 
+**2. Install dependencies**
 
-## About the Course 
+Run: npm install
 
-I have designed this course to teach you everything you need to know to become a proficient React developer. This course is the first part of a two-part series, covering the fundamentals. You'll learn how to:
+**3. Set up environment variables**
 
-- Build front-end apps with React and TypeScript
-- Build reusable function components
-- Style your components using vanilla CSS, CSS modules, and CSS-in-JS
-- Manage component state
-- Build forms with React Hook Forms
-- Implement form validation using Zod
-- Connect your React apps to the backend
-- Deploy your React apps
-- Use VSCode shortcuts to increase your productivity
-- Write clean code like a pro
-- Apply best practices
+Create a .env file in the project root and add: VITE_RAWG_API_KEY=your_api_key_here
 
+Get a free API key at rawg.io/apidocs.
 
-By the end of this course, you'll have a solid understanding of React and be able to build real-world applications with React and TypeScript.
+**4. Run the dev server**
 
-You can find the full course at: https://codewithmosh.com 
+Run: npm run dev
+
+## Build
+
+Run: npm run build
+
+## License
+
+MIT

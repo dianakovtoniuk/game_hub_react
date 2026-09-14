@@ -44,6 +44,3 @@ Run: npm run dev
 
 Run: npm run build
 
-## License
-
-MIT
